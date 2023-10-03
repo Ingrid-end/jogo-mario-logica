@@ -23,7 +23,6 @@ const loop = setInterval(()=>{
     // console.log(pipePosicao);
     console.log(marioPosicao);
 
-    // ENTROU NO IF É PQ SE FUD$
         // Se a posição do pipe chegou ali e a aposição do pipe é maior que zero e a altura do mario for menor que 80
         if(pipePosicao <= 120 && pipePosicao > 0 && marioPosicao < 80){
             pipe.style.animation = 'none';
